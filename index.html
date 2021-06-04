@@ -462,10 +462,43 @@
     </section>
     <section id="gallery">
 		<div class="allCards">
+			
+			<!-- Début -->
+			
+			<!-- 
+ 				Partie Recto :
+					• Dans la div → ayant pour class → "front" → Background-Image peut-être modifié.
+					• Un titre peut-être inséré dans la balise h1.
+					• Je conseille de laisser comme c'est, pour éviter de surcharger (pas d'ajout d'éléments supplémentaires).
+
+				Partie Verso :
+					• Dans la div → ayant pour class → "back" → 
+											○ Le titre en <h3> peut-être modifié.
+ 											○ Le texte en <p> également.
+					• Le lien de l'article s'ajoute dans la balise l'attribut href de la balise <a>.
+					• Pour changer le titre du bouton →
+										○ Il te suffit de changer le contenu de la balise span ayant pour class → "button-text".
+
+
+				◘ Pour dupliquer la "carte", il faut copier de "<div class="flip">" au troisième "</div>". 
+
+				◘ Pour modifier la couleur de la carte → Portfolio-Clement-PERRIER/css/styles.css -> ligne 924 (" .back button.learn-more .button-text { [•••]; color: #282936; ").
+
+				◘ Pour modifier la taille du bouton → Portfolio-Clement-PERRIER/css/styles.css -> ligne 937 (" .back button:hover .button-text { color: #fff; } ")
+
+			-->
+			
+			<!-- Début code Recto -->
 			<div class="flip">
+				
+			
 				<div class="front" style="background-image: url('images/Veillearticle/cloudarticle1.png')">
 					<h1 class="text-shadow"></h1>
 				</div>
+				
+				<!-- Fin "théorique" code Recto -->
+	
+				<!-- Début code Verso -->
 				<div class="back">
 					<h3>Article 1</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in lobortis est, iaculis iaculis leo.</p>
@@ -478,7 +511,15 @@
 						</button>
 					</a>
 				</div>
+				<!-- Fin code verso -->
+				
 			</div>
+			
+			<!-- Fin réélle code Recto -->
+			
+			<!-- Fin -->
+			
+			
 			<div class="flip">
 				<div class="front" style="background-image: url('images/Veillearticle/cloudarticle2.png')">
 					<h1 class="text-shadow"></h1>
