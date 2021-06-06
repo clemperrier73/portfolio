@@ -937,3 +937,31 @@ li:after{
 .back button:hover .button-text {
     color: #fff;
 }
+
+.textbox {
+    position: relative;
+    background: white;
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    padding: 5%;
+    -webkit-box-shadow: -5px -5px 5px 2px #FFA804;
+    -moz-box-shadow: -5px -5px 5px 2px #FFA804;
+    box-shadow: -5px -5px 5px 2px #FFA804;
+}
+
+.textbox h1 {
+    color: #357f71;
+    text-align: left;
+}
+#line {
+    height: 1px;
+    text-align: left;
+    margin-left: 1%;
+    width: 75px;
+    background: #357f71;
+}
+
+.textbox a {
+    color: #357f71;
+}
